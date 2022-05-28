@@ -1,0 +1,86 @@
+header .navbar .container-fluid .basket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+}
+
+header .navbar .container-fluid .basket .text {
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+header .navbar .container-fluid .basket .basketcount {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+header .navbar .container-fluid .basket .basketcount .count {
+  position: absolute;
+  left: 6px;
+  top: -2px;
+}
+
+main #template .template {
+  width: 100%;
+  height: 300px;
+  background-color: #464545;
+  padding-top: 70px;
+}
+
+main #template .template .title {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+}
+
+main #template .template .subtitle {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+main #cards .cards {
+  margin-bottom: 40px;
+}
+
+main #cards .cards .col-md-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+main #cards .cards .col-md-12 .card {
+  margin-top: 40px;
+  position: relative;
+}
+
+main #cards .cards .col-md-12 .card .card-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+footer .container-fluid {
+  text-align: center;
+  height: 100px;
+}
+
+footer .container-fluid p {
+  font-size: 20px;
+  color: white;
+  padding-top: 40px;
+}
+/*# sourceMappingURL=style.css.map */
